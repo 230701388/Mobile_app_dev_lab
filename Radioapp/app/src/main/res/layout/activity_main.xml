@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="Color Change" />
+
+    <!-- RadioGroup ensures only one button is selected at a time -->
+    <RadioGroup
+        android:id="@+id/colorGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/redc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED" />
+
+        <RadioButton
+            android:id="@+id/greenc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN" />
+
+        <RadioButton
+            android:id="@+id/bluec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE" />
+
+    </RadioGroup>
+
+</LinearLayout>
